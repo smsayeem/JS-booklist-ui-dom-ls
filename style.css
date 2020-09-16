@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: tomato;
+}
+.container{
+  width: 50vw;
+  min-height: 50vh;
+  border: 1px solid #777;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+
+}
+form input{
+  min-width: 50%;
+  margin-bottom: 10px;
+}
+table{
+  margin-top: 20px;
+  width: 100%;
+  border-top: 1px solid #999;
+  /* border: 2px solid #eee; */
+  padding:10px 0;
+}
+.alert{
+  border: 1px solid red;
+}
+.success, .error{
+  padding: 5px;
+  margin: 5px 0 15px;
+  color: #fff;
+}
+.success{
+  background-color: green;
+}
+.error{
+background-color: red;
+}

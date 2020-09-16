@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book list</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Book list | Add or remove book</h1>
+    <form id='book-form'>
+      <label for="title">Title</label>
+      <div><input type="text" id='title'></div>
+      <label for="author">Author</label>
+      <div><input type="text" id='author'></div>
+      <label for="isbn">ISBN</label>
+      <div><input type="text" id='isbn'></div>
+      <input type="submit" value='Submit' />
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+  </div>
+  <script src="./script_experiment.js"></script>
+</body>
+</html>
